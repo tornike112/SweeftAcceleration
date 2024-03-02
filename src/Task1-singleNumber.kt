@@ -8,7 +8,7 @@ fun singleNumber(numArray: IntArray): Int {
     return result
 }
 fun main() {
-    val numArray = intArrayOf(1, 1, 3, 3, 222,222, 5, 5, 6, 6)
+    val numArray = intArrayOf(1, 1, 3, 3, 5, 5, 6, 6,7)
     val single = singleNumber(numArray)
     println(single)
 }
